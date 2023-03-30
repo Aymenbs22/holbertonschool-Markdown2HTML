@@ -6,6 +6,7 @@ import sys
 
 # script markdown2html.py that takes an argument 2 strings
 if len(sys.argv) != 3:
+    #script markdown2html.py that takes an argument 2 strings
     print("Usage: ./markdown2html.py README.md README.html")
     sys.exit(1)
 
