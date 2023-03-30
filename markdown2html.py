@@ -16,10 +16,12 @@ first = sys.argv[1]
 sec = sys.argv[2]
 
 try:
+    # script markdown2html.py that takes an argument 2 strings
     """script markdown2html.py that takes an argument 2 strings"""
     with open(first, 'r') as f:
         tempMd = f.read()
 except FileNotFoundError:
+    # script markdown2html.py that takes an argument 2 strings
     """script markdown2html.py that takes an argument 2 strings"""
     print("Missing {} ".format(first))
     sys.exit(1)
@@ -27,5 +29,6 @@ except FileNotFoundError:
 textmark = markdown.markdown(tempMd)
 
 with open(sec, 'w') as f:
+    # script markdown2html.py that takes an argument 2 strings
     """script markdown2html.py that takes an argument 2 strings"""
     f.write(textmark)
