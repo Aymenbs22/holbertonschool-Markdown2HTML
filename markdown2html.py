@@ -1,7 +1,5 @@
 #!/usr/bin/python3
 #script markdown2html.py that takes an argument 2 strings
-
-
 import markdown
 import sys
 
