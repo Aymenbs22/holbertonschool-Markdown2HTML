@@ -1,12 +1,12 @@
 #!/usr/bin/python3
-"""script markdown2html.py that takes an argument 2 strings"""
+#script markdown2html.py that takes an argument 2 strings
 
 
 import markdown
 import sys
 
 
-# Open the file for reading and read the input to a temp variable
+# script markdown2html.py that takes an argument 2 strings
 if len(sys.argv) != 3:
     print("Usage: ./markdown2html.py README.md README.html")
     sys.exit(1)
